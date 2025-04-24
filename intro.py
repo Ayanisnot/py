@@ -1,7 +1,11 @@
-print("Welcome to the world of programming!")
-print(4)
-print("Hello python \n")
-print("hello" , 5)
-print("welcome to " , end= "*") 
+x = 5
+y = "john"
+print(x)
+print(y)
 
+codingal = "codingal"
+print("codingal")
 
+name = input("enter your name: ")
+
+print("\nHello" , name, "\nwelcome to codingal")
