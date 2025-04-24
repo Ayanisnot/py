@@ -1,11 +1,5 @@
-x = 5
-y = "john"
-print(x)
-print(y)
+import keyword
 
-codingal = "codingal"
-print("codingal")
 
-name = input("enter your name: ")
-
-print("\nHello" , name, "\nwelcome to codingal")
+print("the keywords are\n")
+print(keyword.kwlist)
