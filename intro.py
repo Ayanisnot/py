@@ -1,11 +1,9 @@
-tree1 = 100
-tree2 = 45
-tree3 = 65
-tree4 = 89
-tree5 = 99
+Amount = int(input("please enter the amount of withdraw :"))
 
-sum = tree1+tree2+tree3+tree4+tree5
-print("the sum of all trees are : " , sum)
+note_1 = Amount//100
+note_2 = (Amount%100)//50
+note_3 = ((Amount%100)%50)//10
 
-average = sum/5
-print("the average of all trees are : " , average)
+print( "note of 100 rupee" , note_1)
+print( "note of 50 rupee" , note_2)
+print( "note of 10 rupee" , note_3)
