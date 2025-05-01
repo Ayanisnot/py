@@ -1,14 +1,11 @@
-a = 5 
-print("type of a: " , type(a))
+tree1 = 100
+tree2 = 45
+tree3 = 65
+tree4 = 89
+tree5 = 99
 
-b=2.5 
-print("type of b: " , type(b))
+sum = tree1+tree2+tree3+tree4+tree5
+print("the sum of all trees are : " , sum)
 
-c = "codingal"
-print("type of c: " , type(c))
-
-d= True
-print("type of b: " , type(d))
-
-
-
+average = sum/5
+print("the average of all trees are : " , average)
