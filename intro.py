@@ -1,3 +1,8 @@
-message = "congratulations"
-uppercase_message = message.upper()
-print(uppercase_message)
+num = 3
+if num > 0:
+   print(num , "Is a positive number")
+
+
+num = -1
+if num > 0:
+    print(num , "Is a positive number")
