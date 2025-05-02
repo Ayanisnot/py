@@ -1,8 +1,10 @@
-num = 3
-if num > 0:
-   print(num , "Is a positive number")
+costprice = int(input("enter the cp :"))
+sellingprice = int(input("enter the sp :"))
 
-
-num = -1
-if num > 0:
-    print(num , "Is a positive number")
+if(sellingprice>costprice):
+  print("profit") 
+  pt=sellingprice-costprice
+  print(pt)
+else :
+  print("no profit")
+  
