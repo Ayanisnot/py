@@ -1,10 +1,3 @@
-costprice = int(input("enter the cp :"))
-sellingprice = int(input("enter the sp :"))
-
-if(sellingprice>costprice):
-  print("profit") 
-  pt=sellingprice-costprice
-  print(pt)
-else :
-  print("no profit")
-  
+message = "congratulations"
+uppercase_message = message.upper()
+print(uppercase_message)
