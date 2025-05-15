@@ -1,9 +1,6 @@
-a = 23
-b = 24
-c = 22
+number =int(input("Enter the number whose sum you find it: "))
+sum = 0
 
-if a > b or  a < c:
-    print("I am using or operator")
-
-elif a < b and a > c:
-    print("I am using and operator")
+for i in range(1, number + 1):
+    sum = sum + i
+print("\nSum =" , sum)
