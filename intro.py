@@ -1,6 +1,10 @@
-number =int(input("Enter the number whose sum you find it: "))
-sum = 0
+number =int(input("Enter the value of terms : "))
 
-for i in range(1, number + 1):
-    sum = sum + i
-print("\nSum =" , sum)
+sum = 0
+i = 1
+
+while i<=number:
+ sum = sum+1
+ i = i+1
+
+ print("\nSum =" , sum)
