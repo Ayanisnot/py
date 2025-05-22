@@ -1,6 +1,14 @@
-num = input("enter a number :")
+string = input("Please enter your own word : ")
+char = input("Please enter your character : ")
+
+i = 0
 count = 0
-for ch in num:
-     if ch.isdigit():
-          count += 1
-print("total digits:" , count)
+
+while( i < len(string)):
+ 
+    if(string[i] == char):
+        count = count + 1
+    i = i + 1
+
+print("The total times of" , char , "has occured = " , count )
+  
