@@ -1,14 +1,9 @@
-string = input("Please enter your own word : ")
-char = input("Please enter your character : ")
+print("Half Pyramid Pattern of Stars (*):")
+n = int(input("enter the number of rows :"))
 
-i = 0
-count = 0
+for i in range(5):
 
-while( i < len(string)):
- 
-    if(string[i] == char):
-        count = count + 1
-    i = i + 1
+    for j in range(i+1):
 
-print("The total times of" , char , "has occured = " , count )
-  
+        print("* " , end="")
+    print()
