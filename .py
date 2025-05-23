@@ -1,9 +1,11 @@
-print("Half Pyramid Pattern of Stars (*):")
-n = int(input("enter the number of rows :"))
+rows = int(input("Enter the numbers of rows :"))
+number = 1
 
-for i in range(5):
+print("floyd's triangle")
 
-    for j in range(i+1):
-
-        print("* " , end="")
+for i in range(1 , rows + 1):
+   
+    for j in range(i , 1+i):
+        print(number , end=' ')
+        number= number + 1
     print()
