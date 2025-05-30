@@ -1,11 +1,11 @@
-rows = int(input("Enter the numbers of rows :"))
-number = 1
-
-print("floyd's triangle")
-
-for i in range(1 , rows + 1):
+def weather_condition():
    
-    for j in range(i , 1+i):
-        print(number , end=' ')
-        number= number + 1
-    print()
+   print("weather is pleasant in",spring)
+   print("weather is same in",autumn)
+
+
+spring = "autumn"
+autumn = "winter" 
+
+weather_condition() 
+
