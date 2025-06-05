@@ -1,13 +1,9 @@
-def shutdown(s) :
-    s = s.upper()
-    if s == "YES":
-        return  "shutting down..."
-    elif s == "NO":
-        return "shutdown aborted.." 
-    else :
-        return "SORRY, I DIDNT UNDERSTAND THAT."
-    
-
-print(shutdown("maybe")) 
+def calc_circumference(radius):
+    pi = 3.1416
+    circumference = 2 * pi * radius
+    return circumference
 
 
+r = float(input("enter the radius of the circle :"))
+c = calc_circumference(r)
+print("The answer is" , c)
