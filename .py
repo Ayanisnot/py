@@ -1,13 +1,15 @@
-
-word = input ("Enter a word : ")
-
-for i in word:
+for x in range(10):
+    if x % 20 == 0:
+       print("twist")
     
-    if (i == 'A'):
+    elif x % 15 == 0:
+     pass
+       
+    if x % 5 == 0:
+        print("fizz")
 
-     print ("A is found")
-    break
-   
-else:
-   print ("A is not found")
-        
+    if x % 3 == 0:
+        print("buzz")
+
+    else:
+         print(x)
