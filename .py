@@ -1,9 +1,13 @@
-def calc_circumference(radius):
-    pi = 3.1416
-    circumference = 2 * pi * radius
-    return circumference
 
+word = input ("Enter a word : ")
 
-r = float(input("enter the radius of the circle :"))
-c = calc_circumference(r)
-print("The answer is" , c)
+for i in word:
+    
+    if (i == 'A'):
+
+     print ("A is found")
+    break
+   
+else:
+   print ("A is not found")
+        
