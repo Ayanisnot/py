@@ -1,8 +1,6 @@
-import calendar
+ch = input("Enter a character: ")
 
-year = int(input("Enter the year : "))
-
-cal = calendar.TextCalendar(calendar.SUNDAY)
-
-for month in range (1,13):
-    print(cal.formatmonth(year,month))
+if ('a' <= ch  <= 'z') or ('A' <= ch  <=  'Z'):
+    print (f"{ch} is an important alphabet.")
+else:
+    print (f"{ch} is not an important alphabet.")
