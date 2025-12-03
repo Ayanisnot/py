@@ -1,7 +1,15 @@
-bill_amount = float(input("Enter total amount:"))
-amount_paid = float(input("Amount paid by customer:"))
+decimal = int(input("enter a decimal number:"))
 
-due = bill_amount - amount_paid
+binary = ""
+temp = decimal
 
+if temp == 0:
+   binary = "0"
 
-print("due amount:" , due)
+else:
+   while temp > 0:
+     remainder = temp % 2
+     binary = str(remainder) + binary
+     temp //= 2
+
+print("Binary number:" , binary)
