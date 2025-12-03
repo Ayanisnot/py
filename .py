@@ -1,6 +1,7 @@
-ch = input("Enter a character: ")
+bill_amount = float(input("Enter total amount:"))
+amount_paid = float(input("Amount paid by customer:"))
 
-if ('a' <= ch  <= 'z') or ('A' <= ch  <=  'Z'):
-    print (f"{ch} is an important alphabet.")
-else:
-    print (f"{ch} is not an important alphabet.")
+due = bill_amount - amount_paid
+
+
+print("due amount:" , due)
