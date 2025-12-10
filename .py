@@ -1,15 +1,7 @@
-decimal = int(input("enter a decimal number:"))
+numbers = (1, 7, 8, 6)
 
-binary = ""
-temp = decimal
+product = 1
+for num in numbers:
+    product = product * num
 
-if temp == 0:
-   binary = "0"
-
-else:
-   while temp > 0:
-     remainder = temp % 2
-     binary = str(remainder) + binary
-     temp //= 2
-
-print("Binary number:" , binary)
+print("The product of tuple is:" , product)
