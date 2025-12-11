@@ -1,7 +1,11 @@
-numbers = (1, 7, 8, 6)
+start = int(input("Enter the start of range :"))
+end = int(input("Enter the end of range :" ))
 
-product = 1
-for num in numbers:
-    product = product * num
+squares = [num**2 for num in range(start, end+1)]
 
-print("The product of tuple is:" , product)
+even_squares = [sq for sq in squares if sq % 2 == 0]
+odd_squares = [sq for sq in squares if sq % 2 != 0]
+
+print("All squares" , squares)
+print("Even squares" , even_squares)
+print("Odd squares" , odd_squares)
